@@ -1,4 +1,4 @@
-public class ex6 {
+public class ex3_6 {
     public static class ContaBancaria {
         private int numeroConta;
 

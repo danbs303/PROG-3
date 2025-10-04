@@ -1,4 +1,4 @@
-public class ex2 {
+public class ex2_2 {
     
     public static class Contador {
         private static int totalObjetos = 0;

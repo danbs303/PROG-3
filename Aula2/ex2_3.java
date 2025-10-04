@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class ListaNomes {
+public class ex2_3 {
     ArrayList<String> nomes = new ArrayList<String>();
 
     public void adicionarNome(String nome) {
@@ -18,7 +18,7 @@ public class ListaNomes {
         nomes.remove(nome);
     }
     public static void main(String[] args) {
-        ListaNomes lista = new ListaNomes();
+        ex2_3 lista = new ex2_3();
         lista.adicionarNome("Carimbo Miguel");
         lista.adicionarNome("Xerox Maria");
         lista.adicionarNome("Xerolaine");

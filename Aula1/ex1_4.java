@@ -1,4 +1,4 @@
-public class ex4 {
+public class ex1_4 {
     public static void main(String[] args) {
         int count = 0;
         int sum = 0;

@@ -1,4 +1,4 @@
-public class ex4 {
+public class ex3_4 {
     public static class Animal{
         public void emitirSom(){}
     }

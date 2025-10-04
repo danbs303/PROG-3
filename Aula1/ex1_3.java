@@ -1,4 +1,4 @@
-public class ex3 {
+public class ex1_3 {
     public static void main(String[] args) {
         int[] notas = {7, 8, 6, 9, 5, 10, 4, 3, 2, 1};
         int soma = 0;

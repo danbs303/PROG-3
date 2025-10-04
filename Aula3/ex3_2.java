@@ -1,4 +1,4 @@
-public class ex2 {
+public class ex3_2 {
     
     public static class Pessoa {    
         String nome;

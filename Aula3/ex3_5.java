@@ -1,4 +1,4 @@
-public class ex5 {
+public class ex3_5 {
     public static class Calculadora{
         public int somar(int a, int b){
             return a + b;

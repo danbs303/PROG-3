@@ -1,4 +1,4 @@
-public class ex1 {
+public class ex2_1 {
     public static class Carro {
         private String marca;
         private String modelo;
