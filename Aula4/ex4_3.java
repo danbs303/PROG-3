@@ -1,10 +1,28 @@
 public class ex4_3 {
-    
+    public interface Corredor {
+        void correr();
+    }
+    public interface Nadador {
+        void nadar();
+    }
+    public interface Ciclista {
+        void pedalar();
+    }
+    public static class Triatleta implements Corredor, Nadador, Ciclista {
+        public void correr() {
+            System.out.println("O triatleta está correndo.");
+        }
+        public void nadar() {
+            System.out.println("O triatleta está nadando.");
+        }
+        public void pedalar() {
+            System.out.println("O triatleta está pedalando.");
+        }
+    }
+    public static void main(String[] args) {
+        Triatleta atleta = new Triatleta();
+        atleta.correr();
+        atleta.nadar();
+        atleta.pedalar();
+    }
 }
-
-
-/*Crie interfaces para Corredor, Nadador e Ciclista, cada uma contendo um método 
-representativo (correr(), nadar(), pedalar()). Depois, crie uma classe Triatleta que 
-implemente as três interfaces e exiba mensagens apropriadas para cada método. 
-Crie um programa principal para instanciar Triatleta e chamar os três métodos.
- */
