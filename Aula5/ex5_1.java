@@ -10,6 +10,7 @@ public class ex5_1 {
                 b = scanner.nextInt();
                 resultado = a / b;
                 System.out.println("Resultado: " + resultado);
+                scanner.close();
             } catch (ArithmeticException e) {
                 System.out.println("Erro: Divisao por zero n e permitida.");
             }

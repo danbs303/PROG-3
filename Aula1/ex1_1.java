@@ -1,6 +1,6 @@
 public class ex1_1 {
     public static void main(String[] args) {
-        int idade = 70;
+        int idade = 32;
 
         if (idade < 16) {
             System.out.println("Não pode votar");

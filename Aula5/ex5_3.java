@@ -24,8 +24,3 @@ public class ex5_3 {
     }
 
 
-/* Crie um programa que: Solicite ao usuário um número inteiro e tente converter uma 
-String para int. Utilize try-catch para tratar NumberFormatException (ex.: se o usuário 
-digitar letras). Utilize um bloco finally para exibir uma mensagem do tipo: "Encerrando 
-programa...", garantindo que essa linha sempre seja executada, independentemente de 
-erros. */
