@@ -6,6 +6,7 @@ public class ex7_1 {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Digite o nome do arquivo: ");
         String nomeArquivo = scanner.nextLine();
+        scanner.close();
 
         try (
             FileInputStream fis = new FileInputStream(nomeArquivo);

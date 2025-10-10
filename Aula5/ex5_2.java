@@ -12,6 +12,7 @@ public class ex5_2 {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Digite um número: ");
         double numero = scanner.nextDouble();
+        scanner.close();
         try {
             double resultado = calculadora.calcularRaiz(numero);
             System.out.println("Resultado: " + resultado);

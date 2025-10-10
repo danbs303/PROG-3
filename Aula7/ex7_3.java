@@ -6,7 +6,7 @@ public class ex7_3 {
         Scanner sc = new Scanner(System.in);
         System.out.print("Digite o caminho do arquivo ou diretório: ");
         String caminho = sc.nextLine();
-
+        sc.close();
         File f = new File(caminho);
 
         if (f.exists()) {
@@ -26,7 +26,7 @@ public class ex7_3 {
             }
             System.out.println("Caminho absoluto: " + f.getAbsolutePath());
         } else {
-            System.out.println("O caminho informado não existe.");
+            System.out.println("O caminho não existe.");
         }
     }
 }
